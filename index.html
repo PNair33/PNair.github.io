@@ -1,140 +1,254 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Parameswar Nair</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Parameswar Nair</title>
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><img src="images/Headshot.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">Parameswar Nair</a></h1>
-					<p>Sophomore Computer Science major with minors in Data Science and Business, currently looking for Summer 2025 internships</p>
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#one" class="active">About</a></li>
-						<li><a href="#two" class="active">Skills</a></li>
-						<li><a href="#three">Projects</a></li>
-						<li><a href="#four">Contact</a></li>
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-					</ul>
-				</footer>
-			</section>
+  <!-- Google Fonts: Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-				<!-- Main -->
-					<div id="main">
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
-						<!-- One -->
-							<section id="one">
-								<div class="image main" data-position="center">
-									<img src="images/o.jpg" alt="" />
-								</div>
-								<div class="container">
-									<header class="major">
-										<h2>About</h2>
-									</header>
-									<p>I'm a sophomore majoring in Computer Science, with minors in Data Science and Business, and equipped with a strong foundation in programming languages such as Python, HTML, CSS, JavaScript, and C++. I'm eager to leverage my skills in the ever-evolving field of Software Development.<br><br>
-										My skillset extends beyond technical knowledge. I also possess strong leadership, communication, and collaboration skills, which I have honed through various group projects and extracurricular activities. I am an avid tech enthusiast who enjoys staying up-to-date with the latest trends and advancements in software development. I thrive in environments where innovation and creativity are encouraged, and I am always eager to take on new challenges that push the boundaries of my knowledge and skills.<br><br>
-										I am excited to connect with like-minded professionals and explore opportunities where I can contribute my skills and passion for technology to meaningful projects. Feel free to reach out if you have any internship opportunities or projects that align with my qualifications. </p>
-								</div>
-							</section>
+  <!-- Devicon for skill icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
 
-						<!-- Two -->
-							<section id="two">
-								<div class="container">
-									<h3>Skills</h3>
-									<ul>
-										<li>Python</li>
-										<li>HTML</li>
-										<li>CSS</li>
-										<li>JavaScript</li>
-										<li>C++</li>
-										<li>Next.js</li>
-										<li>Node.js</li>
-										<li>React</li>
-										<li>Java</li>
-										<li>Typescript</li>
-									  </ul>
-								</div>
-							</section>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-						<!-- Three -->
-							<section id="three">
-								<div class="container">
-									<h3>Projects</h3>
-									<h4>AI-Powered Customer Support Chatbot</h4>
-									<ul>
-										<li>Designed and implemented a responsive AI-powered customer support chatbot using Next.js, integrating front-end and back-end
-											functionalities seamlessly</li>
-										<li>Leveraged OpenAI API to enable natural language processing capabilities, allowing chatbot to understand and respond to
-											customer inquiries effectively</li>
-										<li>Implemented a feedback mechanism for users to rate chatbot responses</li>
-										<br>
-							
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container position-relative">
+      <button
+        class="navbar-toggler border border-info"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav gap-3 fs-5">
+          <li class="nav-item"><a class="nav-link active" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-									</ul>
-									<h4>Voice Assistant</h4>
-									<ul>
-										<li>Developed a sophisticated voice-activated assistant using Python, integrating speech recognition, natural language processing, and
-											automation techniques</li>
-										<li>This assistant integrates Google Cloud's speech recognition API to accurately interpret user commands in real-time, supporting
-											natural language queries. Key functionalities include launching applications like Google Chrome, retrieving current time, and
-											opening websites such as YouTube</li>
-									</ul>
-									<ul>
-									<h4>Currency Converter App and Website</h4>
-										<li>Developed a user-friendly currency converter using React for dynamic rendering, HTML for structure, and CSS for styling, ensuring a visually 
-											appealing and intuitive interface across both app and website versions</li>
-										<li>Integrated APIs to fetch real-time currency exchange rates, enhancing the app's functionality </li>
-							
-									</ul>
-									
-											
-									
-								</div>
-							</section>
+  <!-- Main content -->
+  <main class="container">
 
-						
-							<section id="four">
-								<div class="container">
-									<h3>Contact Me</h3>
-									<h4>Email: nairpara@msu.edu</h4>
-									<h4>Phone: (517)- 455 3635</h4>
-									<h4>Linkedin: <a href="https://www.linkedin.com/in/parameswarnair/">Click Here</a></h4>
-									<h4>Github: <a href="https://github.com/PNair33">Click Here</a></h4>
-								</div>
-							</section>
+    <div class="avatar-container" data-aos="fade-down" tabindex="0">
+      <img src="images/Headshot.jpg" alt="Parameswar Nair" class="avatar-img" />
+    </div>
+    <h1 class="header-name" tabindex="0">Parameswar Nair</h1>
 
-						
+    <!-- About Section -->
+    <section id="about" data-aos="fade-up" tabindex="0">
+      <h2>About Me</h2>
+      <p class="lead">
+        I'm a Computer Science major with minors in Data Science and Business, driven by a passion for building impactful technology and leading teams that bring ideas to life. Whether it's developing scalable software, managing cross-functional projects, or diving deep into data, I thrive at the intersection of engineering, strategy, and collaboration.
+		<br>
+		<br>
+		What excites me most is working with people: leading technical teams, contributing to innovative projects, and learning from every challenge. I'm actively exploring opportunities in software engineering, technical program management, and data science. Excited to connect and build something meaningful together.
+      </p>
+    </section>
 
-					</div>
+    <!-- Skills Section -->
+    <section id="skills" data-aos="fade-up" data-aos-delay="100" tabindex="0">
+      <h2>Skills</h2>
+      <div class="skill-icons" aria-label="Skills icons">
+        <i class="devicon-python-plain" title="Python" aria-label="Python"></i>
+        <i class="devicon-html5-plain" title="HTML5" aria-label="HTML5"></i>
+        <i class="devicon-css3-plain" title="CSS3" aria-label="CSS3"></i>
+        <i class="devicon-javascript-plain" title="JavaScript" aria-label="JavaScript"></i>
+        <i class="devicon-cplusplus-plain" title="C++" aria-label="C++"></i>
+        <i class="devicon-nextjs-original" title="Next.js" aria-label="Next.js"></i>
+        <i class="devicon-nodejs-plain" title="Node.js" aria-label="Node.js"></i>
+        <i class="devicon-react-original" title="React" aria-label="React"></i>
+        <i class="devicon-java-plain" title="Java" aria-label="Java"></i>
+        <i class="devicon-typescript-plain" title="TypeScript" aria-label="TypeScript"></i>
+      </div>
+    </section>
 
-				<!-- Footer -->
-					<section id="footer">
-						
-					</section>
+    <!-- Experience Section -->
+    <section id="experience" data-aos="fade-up" data-aos-delay="150" tabindex="0">
+      <h2>Experience</h2>
 
-			</div>
+      <div class="experience-card">
+		<div class="experience-image-container">
+			<img src="images/fraunhofer.png" alt="Fraunhofer USA Logo" class="experience-img" />
+		</div>
+        <h5>Software Development Intern - Fraunhofer USA</h5>
+        <ul>
+          <li>Built a full-stack internal management web application using PHP, JavaScript, HTML/CSS, Bootstrap, and MySQL in Agile environment to streamline inventory tracking, HR workflows, order processing, and training
+		  </li>
+		  
+		 	<li>Engineered modular, secure backend systems with optimized SQL and role-based access control; applied error handling strategies and input sanitization, reducing system failures by 45%
+			</li>
+		  <li>Configured self-hosted Git server on Ubuntu Linux with SSH key-based authentication for secure version control
+			</li>
+		  <li>Automated data pipelines using Python (Pandas) for Excel imports, enabling consistent database updates and supply tracking
+		</li>
+		  <li>Integrated analytics dashboards using Power BI and Python to visualize key operational KPIs for Coatings R&D team, enabling data-driven decision-making 
+		</li>
+        </ul>
+      </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+      <div class="experience-card">
+		<div class="experience-image-container">
+			<img src="images/core.png" alt="Fraunhofer USA Logo" class="experience-img" />
+		</div>
+        <h5>Cornerstone Engineering and Residential Experience (CoRe) Peer Leader</h5>
+        <ul>
+          <li>Collaborated with a cross-functional team to plan and launch academic, professional, and social programs for 1,000+ students, increasing student participation and event satisfaction through iterative improvements</li>
+          <li>Oversaw multiple initiatives by managing timelines, mitigating risks, and communicating progress; delivered structured mentorship that supported academic and career growth for engineering students</li>
+		  <li>erved as CoRe representative for university seminars and events, coordinating logistics, aligning program goals with student needs, and ensuring successful delivery of high-impact experiences</li>
+		
+		
+		</ul>
+      </div>
 
-	</body>
+      <div class="experience-card">
+		<div class="experience-image-container">
+			<img src="images/frib.png" alt="Fraunhofer USA Logo" class="experience-img" />
+		</div>
+        <h5>Undergraduate Research Assistant</h5>
+        <ul>
+          <li>Enhanced Java-based data processing program to automate nuclear data formatting and validation for ENSDF database, improving data accuracy and processing efficiency by over 50%</li>
+          <li>Extracted and compiled nuclear structure data from 6 scientific publications for inclusion into XUNDL database</li>
+        </ul>
+      </div>
+
+	  <div class="experience-card">
+        <h5>Undergraduate Learning Assistant - CSE 102 Algorithmic Thinking and Programming </h5>
+        <ul>
+          <li>Led lab sessions for 30+ students, enhancing Python programming skills through tailored support on syntax and critical thinking, resulting in improved student performance</li>
+          <li>Proctored quizzes, maintaining fair testing environment to ensure accurate assessment of student progress</li>
+        </ul>
+      </div>
+	  
+	  <div class="experience-card">
+		<div class="experience-image-container">
+			<img src="images/headstarter.png" alt="Fraunhofer USA Logo" class="experience-img" />
+		</div>
+        <h5>Software Engineering Fellow - Headstarter AI</h5>
+        <ul>
+          <li>Launched 5 AI projects using Next.js, React, and OpenAI API, merging AI functionalities across real-world applications
+			</li>
+          <li>Leveraged user testing and usage analytics to drive product feature optimizations through data-driven iterations</li>
+        </ul>
+      </div>
+	  
+
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" data-aos="fade-up" data-aos-delay="200" tabindex="0">
+      <h2>Projects</h2>
+      <div class="row g-4 justify-content-center">
+
+        <div class="col-md-6">
+          <div class="project-card">
+            <h5>AI-Powered Customer Support Chatbot</h5>
+            <ul>
+              <li>Developed an AI-powered homework assistant for middle schoolers, combining speech recognition, conversational AI, and a responsive front-end for seamless, cross-device user experience</li>
+				<li>Led development of the NLP pipeline to convert teacher-uploaded videos into accurate transcripts to train chatbot
+				</li>
+              
+            <div class="project-github-link-wrapper">
+              <a href="https://github.com/MSU-AI/ai-tutor" target="_blank" rel="noopener noreferrer" aria-label="GitHub repository for AI-Powered Customer Support Chatbot">
+                <i class="devicon-github-original colored"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="project-card">
+            <h5>PinPoint – SpartaHack X 2025 </h5>
+            <ul>
+              <li>Built a map-based reporting app for students to pin campus issues, featuring an admin dashboard for live report management</li>
+					<li>Enhanced map performance through frontend optimization and efficient data handling; implemented a scalable MongoDB schema to streamline report storage and admin workflows
+				</li>
+              
+            </ul>
+            <div class="project-github-link-wrapper">
+              <a href="https://github.com/PNair33/PinPoint" target="_blank" rel="noopener noreferrer" aria-label="GitHub repository for Voice Assistant">
+                <i class="devicon-github-original colored"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="project-card">
+            <h5>FLowplan</h5>
+            <ul>
+				<li>Developed a cross-platform desktop app with Avalonia UI (C#/.NET) for daily task management, featuring a color-coded timeline and real-time visual warnings for scheduling conflicts</li>
+					<li>efficient overlap detection algorithms in C++, reducing task conflicts and enabling clearer scheduling through an intuitive timeline layout
+					</li>
+            </ul>
+            <div class="project-github-link-wrapper">
+              <a href="https://github.com/PNair33/PinPoint" target="_blank" rel="noopener noreferrer" aria-label="GitHub repository for Currency Converter App and Website">
+                <i class="devicon-github-original colored"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" data-aos="fade-up" data-aos-delay="300" tabindex="0">
+      <h2>Contact Me</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:nairpara@msu.edu">nairpara@msu.edu</a></li>
+        <li><strong>Phone:</strong> (517) 455-3635</li>
+      </ul>
+
+      <!-- Social Icons -->
+      <div class="contact-icons text-center mt-3">
+        <a href="https://www.linkedin.com/in/parameswarnair/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" class="me-4">
+          <i class="devicon-linkedin-plain colored"></i>
+        </a>
+        <a href="https://github.com/PNair33" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+          <i class="devicon-github-original colored"></i>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Parameswar Nair. All Rights Reserved.
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
+
+</body>
 </html>
